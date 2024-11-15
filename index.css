@@ -1,0 +1,1023 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+  
+}
+@font-face {
+    font-family: font1;
+    src: url("./font/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuLyfAZ9hiA.woff2");
+}
+
+
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:5vw 3vw;
+    mix-blend-mode: difference;
+    opacity: 0;
+  
+    
+    
+
+    top: 0;
+    z-index: 999;
+    position: fixed!important;
+  
+  
+    width: 100%;
+  
+
+}
+#nav h1{
+    font-family: font1;
+    font-size: 1.5vw;
+    mix-blend-mode: difference;
+    
+    color: #fff;
+    font-weight: 500;
+    transition: all ease-out 0.3S;
+    cursor: pointer;
+    
+    text-transform: capitalize;
+}
+#part1 
+{    
+    height: 2vw;
+    overflow: hidden;
+}
+#nav h2{
+    font-family: font1;
+    font-size: 1vw;
+    font-weight: 400;
+    color: #fff;
+    transition: all ease-out 0.3S;
+    
+  
+
+}
+
+
+#part2{
+
+    height: 1.2vw;
+    overflow: hidden;
+
+}
+#part1:hover  h1 {
+    transform: translateY(-100%);
+}
+#part2:hover  h2 {
+    transform: translateY(-100%);
+}
+
+#page1{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    
+    background-color: #000;
+}
+#content-part-1{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+#rotate-div{
+    height: 260vh;
+    width: 220vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+    background-color: black;
+    scale: 1;
+}
+#row-div{
+    background-color: black;
+    height: 100%;
+    display: flex;
+    gap: 2vw;
+   
+    flex-direction: column;
+    width: calc(200vw/5);
+}
+
+#img{
+    height: calc(100%/5);
+    border-radius: 5px;
+    
+    width: 100%;
+    
+}
+#img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius:5px ;
+}
+
+ .row-div2{
+    margin-top: -2%;
+}
+.row-div3{
+    margin-top: -5%;
+
+}
+.row-div4{
+    margin-top: -10%;
+
+}
+.row-div5{
+    margin-top: -15%;
+
+} 
+#overlay-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    font-size: 5vw;
+    background-color: #00000042;
+    
+   
+    z-index: 999;
+    
+}
+#overlay-div h1{
+    font-family: font1;
+    text-transform: capitalize;
+    opacity: 0;
+}
+#scroll{
+    position: absolute;
+    bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2vh;
+    color: #fff;
+}
+#scroll h3{
+    font-size: 0.6vw;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: font1;
+}
+#scrollline{
+    width: 5vw;
+    height: 2px;
+    background-color: #5c5858;
+    border-radius: 50px;
+}
+#scroll-p{
+    width: 0vw;
+    height: 2px;
+    background-color: #fff;
+    border-radius: 50px;
+
+}
+
+
+#page2{
+    width: 100%;
+    height: 200vh;
+    background-color: white;
+   
+   
+   
+    
+  
+}
+#rounded-div-wrapper{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    height: 100px;
+    margin-top: -100px;
+    
+   
+}
+#rounded-div{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 150%;
+    height: 750%;
+    background-color: white;
+    border-radius: 50%;
+}
+#text-div-container{
+    display: flex;
+   
+   
+    position: relative;
+    top: 25vw;
+    width: 100%;
+    height: 20vh;
+   
+}
+#text-div{
+    position: absolute;
+    font-size: 7.6vw;
+/* top: 30vw; */
+
+
+font-family: font1;
+font-weight: 590;
+letter-spacing: -7px;
+color: #0d0d11;
+left: 5%;
+width: 100%;
+
+
+    
+    opacity: .2;
+
+}
+
+
+.text-div-hover{
+    position: absolute;
+    font-size: 7.6vw;
+
+left: 5%;
+white-space:nowrap;
+
+font-family: font1;
+font-weight: 590;
+letter-spacing: -7px;
+overflow: hidden;
+color: black;
+width: 0%;
+
+
+
+    
+
+}
+
+
+
+ 
+
+#text-div-container1{
+    display: flex;
+    align-items: center;
+   
+    position: relative;
+    top: 25vw;
+
+    width: 100%;
+    height: 20vh;
+   background-color: white;
+}
+#text-div1{
+    position: absolute;
+    font-size: 7.6vw;
+    
+
+
+
+font-family: font1;
+font-weight: 590;
+letter-spacing: -7px;
+color: #0d0d11;
+left: 20%;
+width: 100%;
+
+
+    
+    opacity: .2;
+
+}
+
+
+.text-div-hover1{
+    position: absolute;
+    font-size: 7.6vw;
+
+left: 20%;
+white-space:nowrap;
+
+font-family: font1;
+font-weight: 590;
+letter-spacing: -7px;
+overflow: hidden;
+color:black;
+width: 0%;
+
+
+
+    
+
+}
+
+#part2-mid{
+    display: flex;
+    align-items: center
+    ;
+    position: relative;
+    top: 34vw;
+    height: 10vw;
+    width: 100%;
+    font-family: font1;
+    
+    color: #868688;
+    padding: 4vw;
+    justify-content: space-between;
+}
+#heading{
+    font-size: 1.5vw;
+    font-family: font1;
+    font-weight: 500;
+
+}
+#button button{
+    padding: 1.2vw 2vw;
+    background-color: black;
+    font-size: 1vw;
+    font-family:font1 ;
+    border-radius: 5vw;
+    color: white;
+    border: none;
+
+}
+#button button:nth-child(2){
+    background-color: #e1e1e1;
+    color: black;
+}
+#part2-end1{
+    display: flex;
+    align-items: center
+    ;
+   position: relative;
+   top: 34vw;
+    height: 10vw;
+    width: 100%;
+    font-family: font1;
+    
+    background-color: #0d0d11;
+  
+    justify-content: space-evenly;
+}
+
+
+#page3{
+    height:240vh;
+    width: 100%;
+   
+    
+}
+#page3-contentdiv{
+    display: flex;
+    
+    justify-content: space-between;
+}
+#page3-heading{
+    padding: 3vw;
+}
+#page3-heading h1{
+    font-size: 6.5vw;
+    font-weight: 500;
+    letter-spacing: -2px;
+    font-family: font1
+    ;
+
+}
+#circ{
+   
+    height: 7vw;
+    width: 7vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+    border-radius: 50%;
+    margin-top: 2vw;
+}
+
+#page3-right-content{
+
+    height: 30vw;
+    width: 80%
+    ;
+    opacity: 0;
+    top:10vw;
+    position: relative;
+    left: 15vw;
+    padding: 2vw;
+   
+    
+
+}
+#page3-right-content h1{
+    font-size: 2.5vw;
+    font-family: font1;
+    padding: 3vw 0vw;
+    font-weight: 500;
+
+
+
+
+}
+#page3-right-content p{
+    font-size: 1.5vw;
+    font-family: font1;
+    line-height: 2.5vw;
+    color: #9d9d9d;
+}
+
+
+#page3-middle h1{
+    font-size: 2.5vw;
+    font-family: font1;
+    text-align: center;
+    color: #868688;
+    padding: 3vw;
+}
+
+
+
+
+ 
+#p3m-text-div-container1{
+    display: flex;
+    align-items: center;
+   
+    position: relative;
+
+
+    width: 100%;
+    height: 20vh;
+   background-color: white;
+}
+
+#p3m-text-div-container{
+    display: flex;
+   
+   
+    position: relative;
+ 
+    width: 100%;
+    height: 20vh;
+   
+}
+
+#p3m-text-div1{
+    position: absolute;
+    font-size: 7.6vw;
+    
+
+
+
+font-family: font1;
+font-weight: 590;
+letter-spacing: -7px;
+color: #0d0d11;
+left: 30%;
+width: 100%;
+
+
+    
+    opacity: .2;
+
+}
+
+
+.p3m-text-div-hover1{
+    position: absolute;
+    font-size: 7.6vw;
+
+
+white-space:nowrap;
+
+font-family: font1;
+font-weight: 590;
+letter-spacing: -7px;
+overflow: hidden;
+color:black;
+width: 0%;
+
+left: 30%;
+
+
+
+    
+
+}
+
+
+#p3m-text-div{
+    position: absolute;
+    font-size: 7.6vw;
+/* top: 30vw; */
+
+
+font-family: font1;
+font-weight: 590;
+letter-spacing: -7px;
+color: #0d0d11;
+
+width: 100%;
+
+left: 20%;
+    
+    opacity: .2;
+
+}
+
+
+.p3m-text-div-hover{
+    position: absolute;
+    font-size: 7.6vw;
+
+
+white-space:nowrap;
+
+font-family: font1;
+font-weight: 590;
+letter-spacing: -7px;
+overflow: hidden;
+color: black;
+width: 0%;
+left: 20%;
+
+
+
+    
+
+}
+#page4{
+    min-height: 550vh;
+    width: 100%;
+    background-color: #f5f5f5;
+    position: relative;
+    bottom: 35vw;
+}
+
+#rounded-div-wrapper1{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    height: 100px;
+    margin-top: 100px;
+    
+   
+}
+#rounded-div1{
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%);
+    width: 150%;
+    height: 750%;
+    background-color: white;
+    border-radius: 50%;
+}
+
+
+
+
+ 
+#p4m-text-div-container1{
+    display: flex;
+    align-items: center;
+   
+    position: relative;
+    
+   
+
+
+    width: 100%;
+    height: 20vh;
+   background-color: white;
+  
+}
+
+#p4m-text-div-container{
+    display: flex;
+    
+   
+   
+   
+    position: relative;
+ 
+    width: 100%;
+    height: 20vh;
+   
+}
+
+#p4m-text-div1{
+    position: absolute;
+    font-size: 7.6vw;
+    
+
+
+
+font-family: font1;
+font-weight: 590;
+letter-spacing: -7px;
+color: #0d0d11;
+
+width: 100%;
+
+
+    
+    opacity: .2;
+    left:5%;
+    margin-top: 10vw;
+  
+
+}
+
+
+.p4m-text-div-hover1{
+    position: absolute;
+    font-size: 7.6vw;
+
+
+white-space:nowrap;
+
+font-family: font1;
+margin-top: 10vw;
+font-weight: 590;
+
+letter-spacing: -7px;
+overflow: hidden;
+color:black;
+width: 0%;
+left:5%;
+
+
+
+
+
+    
+
+}
+
+
+#p4m-text-div{
+    position: absolute;
+    font-size: 7.6vw;
+/* top: 30vw; */
+
+
+
+font-family: font1;
+font-weight: 590;
+letter-spacing: -7px;
+color: #0d0d11;
+
+width: 100%;
+
+margin-top: 10vw;
+    
+    opacity: .2;
+    left:5%;
+}
+
+
+.p4m-text-div-hover{
+    position: absolute;
+    font-size: 7.6vw;
+
+
+white-space:nowrap;
+
+font-family: font1;
+font-weight: 590;
+margin-top: 10vw;
+letter-spacing: -7px;
+overflow: hidden;
+color: black;
+width: 0%;
+left:5%;
+
+
+
+    
+
+}
+#page4-middle{
+    padding: 3vw;
+}
+#p4m-part1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 35vh;
+    width: 100%;
+    padding: 3vw;
+    
+    position: relative
+    ;
+    border-top:1px solid rgb(131, 129, 129) ;
+    border-bottom:1px solid rgb(132, 128, 128) ;
+    top: 35vw;
+}
+#p4m-part1 h1{
+    font-size: 5vw;
+    font-family: font1;
+    font-weight: 500;
+   
+}
+#p4m-part1 button
+{
+    padding: 1.2vw 2.2vw;
+    background-color: #e1e1e1;
+    font-size: 1vw;
+    font-family:font1 ;
+    border-radius: 5vw;
+    color: black;
+    border: none;
+    position: relative;
+    right: 40%;
+}
+
+#p4m-part2{
+    position: relative;
+    top: 37vw;
+    left: 50%;
+}
+#p4m-part2 h1{
+    font-family: font1;
+    font-weight: 500;
+    font-size: 2.2vw;
+    padding: 2vw 0vw;
+    letter-spacing: -1px;
+}
+#p4m-part2-list h1{
+    padding: 0.4vw 0vw;
+    font-size: 1.7vw;
+    font-family: font1;
+    color: #aea6a6;
+    font-weight:00;
+    
+}
+.p4m2{
+    margin-top: 10vw;
+}
+
+#page5{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 35vw;
+}
+#our-work-txt {
+   
+    position: absolute;
+    width: 60vw;
+    height: 0vh;
+    
+    z-index: 9;
+    font-family: font1;
+    
+    color: white;
+}
+#our{
+    position: absolute;
+    top: 0;
+    left: 28%;
+    transform: translate(-20%, -50%);
+    color: #fff;
+    font-size: 7vw;
+}
+#work{
+    position: absolute;
+    bottom: 0;
+    right: 28%;
+    transform: translate(20%, 50%);
+    color: #fff;
+    font-size: 7vw;
+}
+#our-work-text-div{
+    overflow: hidden;
+    height: 0vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60vw;
+    position: relative;
+    background-color: white;
+
+}
+#scroll-work{
+    height: 60vh;
+    width: 100%;
+    background-color: #919191;
+    overflow: hidden;
+}
+
+#scroll-img{
+    width: 100%;
+    margin-top: 0%;
+    transition: all cubic-bezier(0.19, 1, 0.22, 5);
+}
+#scroll-img{
+    width: 100%;
+}
+#page5 button{
+    padding: 1.2vw 2vw;
+    background-color: #919191;
+    color: white;
+    border: none;
+    border-radius: 5vw;
+    position: absolute;
+    bottom: -10%;
+    
+
+}
+
+#page7{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    position: relative;
+    bottom: 35vw;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+#page7 h1{
+    font-size: 6.2vw;
+    height: 10vw;
+   
+
+    color: #c9c9cc;
+    font-family: font1;
+
+
+    
+}
+#page7 button{
+    position: relative;
+    top: 3vw;
+    padding: 1.2vw 2vw;
+    background-color: #e1e1e1;
+    color: black;
+    border-radius: 5vw;
+    border: none;
+
+}
+#page7 h2{
+    font-size: 1.5vw;
+    padding: 0.5vw;
+    
+  
+
+    color: #c9c9cc;
+    font-weight: 500;
+    font-family: font1;
+
+
+    
+}
+#page7 h5{
+    font-size: 0.7vw;
+    padding: 0.5vw;
+    position: relative;
+    top: 10vw;
+    
+  
+
+    color: #a1a4a6;
+    font-weight: 500;
+    font-family: font1;
+
+
+    
+}
+#page6{
+    position: relative;
+    background-color: #f5f5f5;
+    height: 100vh;
+    border: 1px solid black;
+    width: 100%;
+    display: flex;
+    bottom: 35vw;
+    
+   
+    flex-direction: column;
+
+}
+
+#page6 h3{
+    text-align: center;
+    font-size: 1.2vw;
+    font-weight: 500;
+    padding: 2vw 1vw;
+    color: #999999;
+    font-family: font1;
+
+}
+#page6 h1{
+    font-size: 18vw;
+    font-family: font1;
+    font-weight: 500;
+    position: relative;
+    top: 4vw;
+    padding: 5vw;
+
+}
+#page6-text{
+    height: 20vw;
+    width: 25vw;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+   
+    position: absolute;
+   top: 16vw;
+    left: 60vw;
+}
+#page6-text h2{
+    font-size: 1.5vw;
+    font-family: font1;
+    font-weight: 500;
+    padding: .2vw 0vw;
+}
+#page6-text p{
+    font-size: 1.2vw;
+    font-family: font1;
+    font-weight: 500;
+    padding: 3vw 0vw;
+    position: relative;
+    color: #a3a3a3;
+ 
+
+}
+#page6-text button{
+    padding: 1.5vw 2vw;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5vw;
+}
+
+#loader
+
+{
+    height: 100vh;
+    width: 100%;
+    background-color: #000;
+    z-index: 9999;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    position: fixed;
+   
+    
+}
+#loader h1{
+    font-size: 2.8vw;
+    font-family: font1;
+    color: white;
+    position: absolute;
+
+}
+#loader h1:nth-child(1)
+{
+    display: none;
+}
+#loader h1:nth-child(2)
+{
+    display: none;
+}
+#loader h1:nth-child(3)
+{
+    display: none;
+}
+#loader h1:nth-child(4)
+{
+    display: none;
+  
+}
+
+
